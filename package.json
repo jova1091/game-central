@@ -1,0 +1,31 @@
+{
+  "name": "js-games",
+  "version": "1.0.0",
+  "description": "Central games with JS",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "css-build": "node-sass -w assets/sass/master.scss assets/css/master.css --output-style compressed",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jova1091/game-central.git"
+  },
+  "keywords": [
+    "JS",
+    "Games"
+  ],
+  "author": "Joan Preciado (jova1091)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jova1091/game-central/issues"
+  },
+  "homepage": "https://github.com/jova1091/game-central#readme"
+}

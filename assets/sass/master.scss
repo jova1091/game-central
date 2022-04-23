@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: "Game played regular";
+    src: url("../font/GamePlayed-vYL7.ttf");
+}
+
+@font-face {
+    font-family: "Game played outline";
+    src: url("../font/GamePlayedOutline-wrX8.ttf");
+}
+
+// Set your brand colors
+$blue: #0d2b45;
+$blue-light: #203c56;
+$purple: #544e68;
+$purple-light: #8d697a;
+$orange-light: #d08159;
+$orange-lighter: #ffaa5e;
+$beige-light: #ffd4a3;
+$beige-lighter: #ffecd6;
+
+// Update Bulma's global variables
+$family-primary: 'Roboto', sans-serif;
+$family-secondary: 'Game played regular';
+
+// Update some of Bulma's component variables
+$body-background-color: $blue;
+$footer-padding: 3rem;
+$footer-background-color: $blue-light;
+$footer-color: $orange-lighter;
+
+// Import only what you need from Bulma
+@import "node_modules/bulma/bulma.sass";
+
+// Own personalization
+.title-banner {
+    .title{
+        font-family: Game played regular;
+        font-size: 5em;
+        color: $beige-light;
+    }
+    .subtitle {
+        font-family: Game played outline;
+        font-size: 3em;
+        color: $beige-light;
+    }
+}
