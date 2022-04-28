@@ -11,9 +11,11 @@
     width: 200px;
     height: 200px;
     border: 1px solid black;
+    background-image: url('../img/mole-no.png');
+    background-size: cover;
 }
 
 .mole {
-    background-image: url('../img/');
+    background-image: url('../img/mole.png');
     background-size: cover;
 }
