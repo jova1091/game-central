@@ -47,6 +47,9 @@ a {
     }
 }
 
+strong {
+    color: currentColor;
+}
 
 .title-banner {
     .title{
@@ -58,6 +61,36 @@ a {
         font-family: Game played outline;
         font-size: 3em;
         color: $beige-light;
+    }
+}
+
+.card-content {
+    background-color: $blue-light;
+    color: $beige-light;
+
+    .media {
+        .media-content {
+            
+            .title {
+                color: $orange-light;
+            }
+            
+            .subtitle {
+                color: $orange-light;
+                font-weight: 700;
+                
+                &:hover {
+                    color: $orange-lighter;
+                }
+            }
+        }
+    }
+
+    .content {
+
+        .title {
+            color: $beige-light;
+        }
     }
 }
 

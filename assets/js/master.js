@@ -3,7 +3,12 @@ const games = [
         id: 1,
         name: 'Memory game',
         url: '/games/memory_game/index.html'
-    }
+    },
+    {
+        id: 2,
+        name: 'Whack a mole',
+        url: '/games/whack_a_mole/index.html'
+    },
 ]
 
 let modal               = "";
