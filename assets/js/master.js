@@ -2,12 +2,12 @@ const games = [
     {
         id: 1,
         name: 'Memory game',
-        url: 'https://jova1091.github.io/game-central/games/memory_game/index.html'
+        url: '/game-central/games/memory_game/index.html'
     },
     {
         id: 2,
         name: 'Whack a mole',
-        url: 'https://jova1091.github.io/game-central/games/whack_a_mole/index.html'
+        url: '/game-central/games/whack_a_mole/index.html'
     },
 ];
 
